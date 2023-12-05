@@ -154,4 +154,43 @@
     top: 3%;
     right: 0%;
 }
-  
+  /* end promotion */
+
+
+
+
+/* new arrival */
+.new_arrival_image{
+  position: relative;
+}
+.new_arrival_icon{
+   opacity: 0;
+   position: absolute;
+   top: 40%;
+   left: 37%;
+}
+
+
+
+.new_arrival_hover:hover .new_arrival_icon{
+  opacity: 1;
+}
+
+.new_arrival_hover:hover .new_arrival_image{
+  opacity: 0.4;
+} 
+
+/* subscribe */
+
+.background_color{
+  background-color: #e42121;
+}
+
+/* news */
+.news_hover{
+  overflow: hidden;
+}
+.news_image:hover{
+  transform: scale(1.3);
+  transition: .8s ease-in-out;
+}
